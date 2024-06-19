@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>은서의 웹프로필</title>
+    <style>
+        body {
+            background-color: rgb(164, 225, 254);
+        }
+
+        .title {
+            letter-spacing: .5em;
+            font-size: 40px;
+        }
+
+        .wrap{
+            margin: 10px auto 0px auto;
+            width: 400px;
+        }
+
+        .photo {
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+            background-image: url(dmstj.jpg);
+            background-position: center;
+            background-size: cover;
+
+            border-radius: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            text-align: right;
+            /* 텍스트를 오른쪽 정렬 */
+            padding-top: 5px;
+            padding-right: 25px;
+            box-sizing: border-box;
+        }
+        .profile>p {                      
+                        padding-left: 15px;
+                        text-indent: -15px;
+                        line-height: 1.5;
+                    }
+                    .profile>p>button {
+                        background-color: rgb(168, 222, 255);
+                        box-shadow: 3px 3px 5px 0px rgb(172, 172, 172);
+            
+                        width: 380px;
+                        padding: 5px 3px 5px 3px;
+            
+                        border: solid 4px rgba(58, 58, 231, 0.479);
+                        border-radius: 8px;
+                        font-size: 17px;
+                        cursor: grab;
+                    }
+.profile>p>button:hover{background-color: rgb(107, 187, 219);}
+
+                
+    </style>
+</head>
+
+<body>
+<div class=wrap >
+    <h1 class="title">BIOGRAPHY</h1>
+    <div class="photo">YANG EUN SEO</div>
+    <div class="profile">
+        <p>
+            <span style="color: gray; font-weight: bolds;">생년월일</span>
+            <br>2007년 1월 6일
+        </p>
+        <p>
+            <span style="color: gray; font-weight: bolds;">대표업적</span>
+            <br>2026년 유니스트 합격
+            <br>2035년 삼성 취업
+        </p>
+        <p>
+            <span style="color: gray; font-weight: bolds;">연구자료</span>
+            <br><button onclick="window.open('./article.html')">지구 온난화로 인한 국내 폭염 증가 추이 분석</button>
+        </p>
+        <p>
+            <span style="color: gray; font-weight: bolds;"></span>
+            <br><button onclick="window.open('https://www.yes24.com/Product/Goods/126722130')">폭염 살인</button>
+        </p>
+    </div>
+    </div>
+</body>
+
+</html>
